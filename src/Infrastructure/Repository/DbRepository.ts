@@ -48,7 +48,6 @@ export class DbRepository {
         await this.pool.end();
     }
     async getAllUsers() {
-        console.log(database)
         const client = await this.pool.connect();
         try {
             const result = await client.query('SELECT * FROM sp_getAllUsers()');
