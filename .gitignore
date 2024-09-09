@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Compiled output
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.local.env
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+.env.local
