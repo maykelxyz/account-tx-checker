@@ -35,7 +35,7 @@ A Node.js application for checking Ethereum account transactions using Alchemy S
 To start the development server:
 
 ```
-npm run dev
+npm run serve
 ```
 
 This will start the server on the specified port (default is 3000).
